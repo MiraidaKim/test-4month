@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#colors button {
+    text-transform: capitalize;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+#counter {
+    font-size: 32px;
+    font-weight: bold;
+}
